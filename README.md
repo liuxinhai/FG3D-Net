@@ -7,7 +7,7 @@ Fine-grained 3D shape classification is important for shape understanding and an
 ![framework](./pictures/framework.png)
 
 ### Dataset
-![dataset](./dataset.png)
+![dataset](./pictures/dataset.png)
 
 ### Citation
 If you find our work useful in your research, please consider citing:
