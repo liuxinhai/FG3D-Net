@@ -8,9 +8,14 @@ Fine-grained 3D shape classification is important for shape understanding and an
 <p align="center"> Figure 1. The framework of the FG3D-Net. </p>
 
 ## Dataset
-
+![statistic](./pictures/statistic.png)
+As shown in TABLE I, FG3D consists of three basic categories including Airplane, Car and Chair, which contain 3,441 shapes in 13 subcategories, 8,235 shapes in 20 subcategories,
+and 13,054 shapes in 33 subcategories, respectively. We represent each 3D shape by an object format file (.off) with polygonal surface geometry. One can easily convert the .off
+files into other shape representations, such as rendered views, voxels and point clouds. All shapes in FG3D are collected from multiple online repositories including 3D Warehouse[53], Yobi3D [54] and ShapeNet [9], which contain a massive collection of CAD shapes that are publicly available for research purpose. By collecting 3D shapes over a period of two months, we obtained a collection of more than 20K 3D shapes in three shape categories. We organized these 3D shapes using the WordNet [14] noun “synsets” (synonym sets). WordNet provides a broad and deep taxonomy with over 80K distinct synsets representing distinct noun concepts. This taxonomy has been utilized by ImageNet [5] and ShapeNet[9] to formulate the object subcategories. In our dataset, we also introduce the taxonomy into the collection of 3D shapes,
+as shown in Figure 2.
 ![dataset](./pictures/dataset.png)
 
+For evaluation, we split the shapes in each categories into training and testing sets. Specifically, the 3D shapes in airplane are split into 3,441 for training and 732 for testing. The cars category contains 7,010 shapes for training and 1,315 shapes for testing. The chairs category contains 11,124 shapes for training and 1,930 shapes for testing.
 
 ## Citation
 If you find our work useful in your research, please consider citing:
