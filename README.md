@@ -20,7 +20,33 @@ As shown in Table 1, FG3D dataset consists of three basic categories including A
 For evaluation, we split the shapes in each categories into training and testing sets. Specifically, the 3D shapes in airplane are split into 3,441 for training and 732 for testing. The cars category contains 7,010 shapes for training and 1,315 shapes for testing. The chairs category contains 11,124 shapes for training and 1,930 shapes for testing.
 
 We provide the download link of the FG3D dataset at  <a href="https://drive.google.com/drive/folders/1zLDdE8mMIxVKh3usnUhqtWm-o9TbIMdV?usp=sharing" target="_blank">Google Drive</a>. We show the meaning of different files in the download link as follows.
-
+<p>
+       
+       Filename                                               
+       Airplane_subcategories.txt                              # The name of subcategories under the Airplane category.
+       Airplane_off.zip                                        # The 3D objects (.off) under the Airplane category.
+       Airplane_off_train.txt                                  # The filename of training shapes (.off) under the Airplane category.
+       Airplane_off_test.txt                                   # The filename of testing shapes (.off) under the Airplane category.
+       Airplane_view.zip                                       # The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each shape)
+       Airplane_view_train.txt                                 # The filename of training views (.png) under the Airplane category.
+       Airplane_view_test.txt                                  # The filename of testing views (.png) under the Airplane category.
+       
+       Car_subcategories.txt                                   # The name of subcategories under the Car category.
+       Car_off.zip                                             # The 3D objects (.off) under the Car category.
+       Car_off_train.txt                                       # The filename of training shapes (.off) under the Car category.       
+       Car_off_test.txt                                        # The filename of testing shapes (.off) under the Car category.
+       Car_view.zip                                            # The 2D rendered views (.png) of 3D objects under the Car category. (12 views for each shape)
+       Car_view_train.txt                                      # The filename of training views (.png) under the Car category.
+       Car_view_test.txt                                        # The filename of testing views (.png) under the Car category.
+       
+       Chair_subcategories.txt                                 # The name of subcategories under the Chair category.
+       Chair_off.zip                                           # The 3D objects (.off) under the Chair category.
+       Chair_off_train.txt                                     # The filename of training shapes (.off) under the Chair category.
+       Chair_off_test.txt                                      # The filename of testing shapes (.off) under the Chair category.
+       Chair_view.zip                                          # The 2D rendered views (.png) of 3D objects under the Chair category. (12 views for each shape)
+       Chair_view_train.txt                                    # The filename of training views (.png) under the Chair category.
+       Chair_view_test.txt                                      # The filename of testing views (.png) under the Chair category.
+</p>
 
 
 ## TODOs
