@@ -26,26 +26,26 @@ We provide the download link of the FG3D dataset at  *<a href="https://drive.goo
 ```
    Filename                                               
    Airplane_subcategories.txt				# The name of subcategories under the Airplane category.
-   Airplane_off.zip							# The 3D objects (.off) under the Airplane category.
-   Airplane_off_train.txt					# The filename of training shapes (.off) under the Airplane category.
-   Airplane_off_test.txt					# The filename of testing shapes (.off) under the Airplane category.
-   Airplane_view.zip						# The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each 3D shape)
-   Airplane_view_train.txt					# The filename of training views (.png) under the Airplane category.
-   Airplane_view_test.txt					# The filename of testing views (.png) under the Airplane category.
+   Airplane_off.zip				         # The 3D objects (.off) under the Airplane category.
+   Airplane_off_train.txt				   # The filename of training shapes (.off) under the Airplane category.
+   Airplane_off_test.txt				   # The filename of testing shapes (.off) under the Airplane category.
+   Airplane_view.zip					      # The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each 3D shape)
+   Airplane_view_train.txt				   # The filename of training views (.png) under the Airplane category.
+   Airplane_view_test.txt				   # The filename of testing views (.png) under the Airplane category.
    
    Car_subcategories.txt					# The name of subcategories under the Car category.
-   Car_off.zip								# The 3D objects (.off) under the Car category.
-   Car_off_train.txt						# The filename of training shapes (.off) under the Car category.       
+   Car_off.zip								   # The 3D objects (.off) under the Car category.
+   Car_off_train.txt						   # The filename of training shapes (.off) under the Car category.       
    Car_off_test.txt							# The filename of testing shapes (.off) under the Car category.
    Car_view.zip								# The 2D rendered views (.png) of 3D objects under the Car category. (12 views for each 3D shape)
    Car_view_train.txt						# The filename of training views (.png) under the Car category.
-   Car_view_test.txt						# The filename of testing views (.png) under the Car category.
+   Car_view_test.txt						   # The filename of testing views (.png) under the Car category.
    
    Chair_subcategories.txt					# The name of subcategories under the Chair category.
-   Chair_off.zip							# The 3D objects (.off) under the Chair category.
+   Chair_off.zip							   # The 3D objects (.off) under the Chair category.
    Chair_off_train.txt						# The filename of training shapes (.off) under the Chair category.
    Chair_off_test.txt						# The filename of testing shapes (.off) under the Chair category.
-   Chair_view.zip							# The 2D rendered views (.png) of 3D objects under the Chair category. (12 views for each 3D shape)
+   Chair_view.zip							   # The 2D rendered views (.png) of 3D objects under the Chair category. (12 views for each 3D shape)
    Chair_view_train.txt						# The filename of training views (.png) under the Chair category.
    Chair_view_test.txt						# The filename of testing views (.png) under the Chair category.
 ```
