@@ -23,7 +23,7 @@ We provide the download link of the FG3D dataset at  <a href="https://drive.goog
 <p>
        
        Filename                                               
-       Airplane_subcategories.txt                              # The name of subcategories under the Airplane category.
+       <a href="https://drive.google.com/file/d/1_LWuYpAOc9DWD14rCl9tmtZuSm05T-0J/view?usp=sharing" target="_blank">Airplane_subcategories.txt</a>                              # The name of subcategories under the Airplane category.
        Airplane_off.zip                                        # The 3D objects (.off) under the Airplane category.
        Airplane_off_train.txt                                  # The filename of training shapes (.off) under the Airplane category.
        Airplane_off_test.txt                                   # The filename of testing shapes (.off) under the Airplane category.
