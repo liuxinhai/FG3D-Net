@@ -19,39 +19,38 @@ As shown in Table 1, FG3D dataset consists of three basic categories including *
 
 For evaluation, we split the shapes in each categories into training and testing sets. Specifically, the 3D shapes in airplane are split into 3,441 for training and 732 for testing. The cars category contains 7,010 shapes for training and 1,315 shapes for testing. The chairs category contains 11,124 shapes for training and 1,930 shapes for testing.
 
-## Getting FG3D Dataset
+## Data Download
 
 We provide the download link of the FG3D dataset at  *<a href="https://drive.google.com/drive/folders/1zLDdE8mMIxVKh3usnUhqtWm-o9TbIMdV?usp=sharing" target="_blank">Google Drive</a>*, where 3D shapes are represented in the mesh (.off) and the multiple views (.png). And the meaning of different files in the download link are illustrated as follows.
-<code>
 
-       Filename                                               
-       Airplane_subcategories.txt                              # The name of subcategories under the Airplane category.
-       Airplane_off.zip                                        # The 3D objects (.off) under the Airplane category.
-       Airplane_off_train.txt                                  # The filename of training shapes (.off) under the Airplane category.
-       Airplane_off_test.txt                                   # The filename of testing shapes (.off) under the Airplane category.
-       Airplane_view.zip                                       # The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each 3D shape)
-       Airplane_view_train.txt                                 # The filename of training views (.png) under the Airplane category.
-       Airplane_view_test.txt                                  # The filename of testing views (.png) under the Airplane category.
-       
-       Car_subcategories.txt                                   # The name of subcategories under the Car category.
-       Car_off.zip                                             # The 3D objects (.off) under the Car category.
-       Car_off_train.txt                                       # The filename of training shapes (.off) under the Car category.       
-       Car_off_test.txt                                        # The filename of testing shapes (.off) under the Car category.
-       Car_view.zip                                            # The 2D rendered views (.png) of 3D objects under the Car category. (12 views for each 3D shape)
-       Car_view_train.txt                                      # The filename of training views (.png) under the Car category.
-       Car_view_test.txt                                       # The filename of testing views (.png) under the Car category.
-       
-       Chair_subcategories.txt                                 # The name of subcategories under the Chair category.
-       Chair_off.zip                                           # The 3D objects (.off) under the Chair category.
-       Chair_off_train.txt                                     # The filename of training shapes (.off) under the Chair category.
-       Chair_off_test.txt                                      # The filename of testing shapes (.off) under the Chair category.
-       Chair_view.zip                                          # The 2D rendered views (.png) of 3D objects under the Chair category. (12 views for each 3D shape)
-       Chair_view_train.txt                                    # The filename of training views (.png) under the Chair category.
-       Chair_view_test.txt                                     # The filename of testing views (.png) under the Chair category.
-</code>
-
-
+```python
+   Filename                                               
+   Airplane_subcategories.txt                # The name of subcategories under the Airplane category.
+   Airplane_off.zip                          # The 3D objects (.off) under the Airplane category.
+   Airplane_off_train.txt                    # The filename of training shapes (.off) under the Airplane category.
+   Airplane_off_test.txt                     # The filename of testing shapes (.off) under the Airplane category.
+   Airplane_view.zip      					 # The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each 3D shape)
+   Airplane_view_train.txt                   # The filename of training views (.png) under the Airplane category.
+   Airplane_view_test.txt                    # The filename of testing views (.png) under the Airplane category.
+   
+   Car_subcategories.txt                     # The name of subcategories under the Car category.
+   Car_off.zip                               # The 3D objects (.off) under the Car category.
+   Car_off_train.txt                         # The filename of training shapes (.off) under the Car category.       
+   Car_off_test.txt                          # The filename of testing shapes (.off) under the Car category.
+   Car_view.zip                              # The 2D rendered views (.png) of 3D objects under the Car category. (12 views for each 3D shape)
+   Car_view_train.txt                        # The filename of training views (.png) under the Car category.
+   Car_view_test.txt                         # The filename of testing views (.png) under the Car category.
+   
+   Chair_subcategories.txt                   # The name of subcategories under the Chair category.
+   Chair_off.zip                             # The 3D objects (.off) under the Chair category.
+   Chair_off_train.txt                       # The filename of training shapes (.off) under the Chair category.
+   Chair_off_test.txt                        # The filename of testing shapes (.off) under the Chair category.
+   Chair_view.zip                            # The 2D rendered views (.png) of 3D objects under the Chair category. (12 views for each 3D shape)
+   Chair_view_train.txt                      # The filename of training views (.png) under the Chair category.
+   Chair_view_test.txt                       # The filename of testing views (.png) under the Chair category.
+```
 ## TODOs
+
 <ul>
  <li>We will release the code of FG3D-Net in this respository.</li>      
 </ul>
