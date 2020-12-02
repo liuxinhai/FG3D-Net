@@ -19,11 +19,11 @@ As shown in Table 1, FG3D dataset consists of three basic categories including A
 
 For evaluation, we split the shapes in each categories into training and testing sets. Specifically, the 3D shapes in airplane are split into 3,441 for training and 732 for testing. The cars category contains 7,010 shapes for training and 1,315 shapes for testing. The chairs category contains 11,124 shapes for training and 1,930 shapes for testing.
 
-We provide the download link of the FG3D dataset at  <a href="https://drive.google.com/drive/folders/1zLDdE8mMIxVKh3usnUhqtWm-o9TbIMdV?usp=sharing" target="_blank">Google Drive</a>. We show the meaning of different files in the download link as follows.
+We provide the download link of the FG3D dataset at  <a href="https://drive.google.com/drive/folders/1zLDdE8mMIxVKh3usnUhqtWm-o9TbIMdV?usp=sharing" target="_blank">Google Drive</a>, where 3D shapes are represented in mesh (.off) and multiple views (.png). And the meaning of different files in the download link are illustrated as follows.
 <code>
        
        Filename                                               
-       [Airplane_subcategories.txt](https://drive.google.com/file/d/1_LWuYpAOc9DWD14rCl9tmtZuSm05T-0J/view?usp=sharing)                              # The name of subcategories under the Airplane category.
+       Airplane_subcategories.txt                              # The name of subcategories under the Airplane category.
        Airplane_off.zip                                        # The 3D objects (.off) under the Airplane category.
        Airplane_off_train.txt                                  # The filename of training shapes (.off) under the Airplane category.
        Airplane_off_test.txt                                   # The filename of testing shapes (.off) under the Airplane category.
