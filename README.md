@@ -14,6 +14,7 @@ As shown in Table 1, FG3D dataset consists of three basic categories including A
 
 ![dataset](./pictures/dataset.png)
 Figure 2. There are three shape categories in our fine-grained dataset including *Airplane*, *Car* and *Chair*.
+
 For evaluation, we split the shapes in each categories into training and testing sets. Specifically, the 3D shapes in airplane are split into 3,441 for training and 732 for testing. The cars category contains 7,010 shapes for training and 1,315 shapes for testing. The chairs category contains 11,124 shapes for training and 1,930 shapes for testing.
 
 ## Citation
