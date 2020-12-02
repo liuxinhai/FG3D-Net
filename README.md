@@ -24,6 +24,7 @@ For evaluation, we split the shapes in each categories into training and testing
 We provide the download link of the FG3D dataset at  *<a href="https://drive.google.com/drive/folders/1zLDdE8mMIxVKh3usnUhqtWm-o9TbIMdV?usp=sharing" target="_blank">Google Drive</a>*, where 3D shapes are represented in the mesh (.off) and the multiple views (.png). And the meaning of different files in the download link are illustrated as follows.
 
 <code>
+
    Filename                                               
    Airplane_subcategories.txt				# The name of subcategories under the Airplane category.
    Airplane_off.zip				         # The 3D objects (.off) under the Airplane category.
@@ -48,6 +49,7 @@ We provide the download link of the FG3D dataset at  *<a href="https://drive.goo
    Chair_view.zip							   # The 2D rendered views (.png) of 3D objects under the Chair category. (12 views for each 3D shape)
    Chair_view_train.txt						# The filename of training views (.png) under the Chair category.
    Chair_view_test.txt						# The filename of testing views (.png) under the Chair category.
+
 </code>
 
 ## TODOs
