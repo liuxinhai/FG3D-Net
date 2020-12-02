@@ -50,9 +50,10 @@ We provide the download link of the FG3D dataset at  <a href="https://drive.goog
 
 
 ## TODOs
-\begin{items}
+<ul>
+ <li>We will release the code of FG3D-Net in this respository.</li>      
+</ul>
 
-\end{items}
 ## Citation
 If you find our work useful in your research, please consider citing:
 
