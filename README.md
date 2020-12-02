@@ -29,7 +29,7 @@ We provide the download link of the FG3D dataset at  *<a href="https://drive.goo
    Airplane_off.zip                          # The 3D objects (.off) under the Airplane category.
    Airplane_off_train.txt                    # The filename of training shapes (.off) under the Airplane category.
    Airplane_off_test.txt                     # The filename of testing shapes (.off) under the Airplane category.
-   Airplane_view.zip      					 # The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each 3D shape)
+   Airplane_view.zip						 # The 2D rendered views (.png) of 3D objects under the Airplane category. (12 views for each 3D shape)
    Airplane_view_train.txt                   # The filename of training views (.png) under the Airplane category.
    Airplane_view_test.txt                    # The filename of testing views (.png) under the Airplane category.
    
@@ -60,7 +60,7 @@ If you find our work useful in your research, please consider citing:
 
     @article{liu2020fine,
     	title={Fine-Grained 3D Shape Classification with Hierarchical Part-View Attentions},
-        author={Liu, Xinhai and Han, Zhizhong and Liu, Yu-Shen and Zwicker, Matthias},
-        journal={arXiv preprint arXiv:2005.12541},
-        year={2020}
+    	author={Liu, Xinhai and Han, Zhizhong and Liu, Yu-Shen and Zwicker, Matthias},
+    	journal={arXiv preprint arXiv:2005.12541},
+    	year={2020}
     }
