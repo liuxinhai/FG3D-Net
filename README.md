@@ -9,9 +9,10 @@ Fine-grained 3D shape classification is important for shape understanding and an
 
 ## Dataset
 ![statistic](./pictures/statistic.png)
-As shown in TABLE I, FG3D consists of three basic categories including Airplane, Car and Chair, which contain 3,441 shapes in 13 subcategories, 8,235 shapes in 20 subcategories,
+<p align="center"> Table 1. The statistics of the FG3D dataset which consists of 3 categories and 66 subcategories. </p>
+As shown in Table 1, FG3D consists of three basic categories including Airplane, Car and Chair, which contain 3,441 shapes in 13 subcategories, 8,235 shapes in 20 subcategories,
 and 13,054 shapes in 33 subcategories, respectively. We represent each 3D shape by an object format file (.off) with polygonal surface geometry. One can easily convert the .off
-files into other shape representations, such as rendered views, voxels and point clouds. All shapes in FG3D are collected from multiple online repositories including 3D Warehouse[53], Yobi3D [54] and ShapeNet [9], which contain a massive collection of CAD shapes that are publicly available for research purpose. By collecting 3D shapes over a period of two months, we obtained a collection of more than 20K 3D shapes in three shape categories. We organized these 3D shapes using the WordNet [14] noun “synsets” (synonym sets). WordNet provides a broad and deep taxonomy with over 80K distinct synsets representing distinct noun concepts. This taxonomy has been utilized by ImageNet [5] and ShapeNet[9] to formulate the object subcategories. In our dataset, we also introduce the taxonomy into the collection of 3D shapes,
+files into other shape representations, such as rendered views, voxels and point clouds. All shapes in FG3D are collected from multiple online repositories including <a href="https://3dwarehouse.sketchup.com/" target="_blank">3D Warehouse</a>, Yobi3D [54] and ShapeNet [9], which contain a massive collection of CAD shapes that are publicly available for research purpose. By collecting 3D shapes over a period of two months, we obtained a collection of more than 20K 3D shapes in three shape categories. We organized these 3D shapes using the WordNet [14] noun “synsets” (synonym sets). WordNet provides a broad and deep taxonomy with over 80K distinct synsets representing distinct noun concepts. This taxonomy has been utilized by ImageNet [5] and ShapeNet[9] to formulate the object subcategories. In our dataset, we also introduce the taxonomy into the collection of 3D shapes,
 as shown in Figure 2.
 ![dataset](./pictures/dataset.png)
 
