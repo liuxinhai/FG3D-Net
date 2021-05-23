@@ -59,7 +59,7 @@ We provide the download link of the FG3D dataset at  *<a href="https://drive.goo
 ## Citation
 If you find our work useful in your research, please consider citing:
 
-    @article{liu2020fine,
+    @article{liu2021fine,
     	title={Fine-Grained 3D Shape Classification with Hierarchical Part-View Attentions},
     	author={Liu, Xinhai and Han, Zhizhong and Liu, Yu-Shen and Zwicker, Matthias},
     	journal={IEEE Transactions on Image Processing},
