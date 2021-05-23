@@ -62,6 +62,6 @@ If you find our work useful in your research, please consider citing:
     @article{liu2020fine,
     	title={Fine-Grained 3D Shape Classification with Hierarchical Part-View Attentions},
     	author={Liu, Xinhai and Han, Zhizhong and Liu, Yu-Shen and Zwicker, Matthias},
-    	journal={arXiv preprint arXiv:2005.12541},
-    	year={2020}
+    	journal={IEEE Transactions on Image Processing},
+    	year={2021}
     }
